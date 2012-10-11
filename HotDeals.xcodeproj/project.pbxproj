@@ -40,8 +40,8 @@
 		60B48F7915A89E8200A52C2E /* Hypno@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60B48F7515A89E8200A52C2E /* Hypno@2x.png */; };
 		60B48F7A15A89E8200A52C2E /* Time.png in Resources */ = {isa = PBXBuildFile; fileRef = 60B48F7615A89E8200A52C2E /* Time.png */; };
 		60B48F7B15A89E8200A52C2E /* Time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60B48F7715A89E8200A52C2E /* Time@2x.png */; };
-		60EA6FA41627317100A1B765 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EA6FA21627317100A1B765 /* TestViewController.m */; };
-		60EA6FA51627317100A1B765 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60EA6FA31627317100A1B765 /* TestViewController.xib */; };
+		60EA6FAA1627322C00A1B765 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EA6FA81627322C00A1B765 /* TestViewController.m */; };
+		60EA6FAB1627322C00A1B765 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60EA6FA91627322C00A1B765 /* TestViewController.xib */; };
 		60FD86A415BF23FC000BDCCB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FD86A315BF23FC000BDCCB /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
@@ -99,9 +99,9 @@
 		60B48F7515A89E8200A52C2E /* Hypno@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hypno@2x.png"; sourceTree = "<group>"; };
 		60B48F7615A89E8200A52C2E /* Time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Time.png; sourceTree = "<group>"; };
 		60B48F7715A89E8200A52C2E /* Time@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Time@2x.png"; sourceTree = "<group>"; };
-		60EA6FA11627317100A1B765 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		60EA6FA21627317100A1B765 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		60EA6FA31627317100A1B765 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		60EA6FA71627322C00A1B765 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestViewController.h; path = HotDeals/TestViewController.h; sourceTree = "<group>"; };
+		60EA6FA81627322C00A1B765 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestViewController.m; path = HotDeals/TestViewController.m; sourceTree = "<group>"; };
+		60EA6FA91627322C00A1B765 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestViewController.xib; path = HotDeals/TestViewController.xib; sourceTree = "<group>"; };
 		60FD86A315BF23FC000BDCCB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -242,9 +242,8 @@
 				605AC497161E5EC40046245F /* DealsItemViewController.m */,
 				605AC4A0161E5ECE0046245F /* NewsViewController.h */,
 				605AC499161E5EC40046245F /* NewsViewController.m */,
-				60EA6FA11627317100A1B765 /* TestViewController.h */,
-				60EA6FA21627317100A1B765 /* TestViewController.m */,
-				60EA6FA31627317100A1B765 /* TestViewController.xib */,
+				60EA6FA71627322C00A1B765 /* TestViewController.h */,
+				60EA6FA81627322C00A1B765 /* TestViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -256,6 +255,7 @@
 				605AC48D161E5EC40046245F /* DealsViewController.xib */,
 				605AC498161E5EC40046245F /* DealsItemViewController.xib */,
 				605AC49A161E5EC40046245F /* NewsViewController.xib */,
+				60EA6FA91627322C00A1B765 /* TestViewController.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -332,7 +332,7 @@
 				60B48F7915A89E8200A52C2E /* Hypno@2x.png in Resources */,
 				60B48F7A15A89E8200A52C2E /* Time.png in Resources */,
 				60B48F7B15A89E8200A52C2E /* Time@2x.png in Resources */,
-				60EA6FA51627317100A1B765 /* TestViewController.xib in Resources */,
+				60EA6FAB1627322C00A1B765 /* TestViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +355,7 @@
 				60B48F5715A892F000A52C2E /* DealAppDelegate.m in Sources */,
 				60146208161FCA30004FAB65 /* DealMaker.xcdatamodeld in Sources */,
 				602874E816211E3C00EE51B0 /* DealsViewController.m in Sources */,
-				60EA6FA41627317100A1B765 /* TestViewController.m in Sources */,
+				60EA6FAA1627322C00A1B765 /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
