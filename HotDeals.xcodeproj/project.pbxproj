@@ -42,6 +42,8 @@
 		60B48F7B15A89E8200A52C2E /* Time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60B48F7715A89E8200A52C2E /* Time@2x.png */; };
 		60EA6FAA1627322C00A1B765 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EA6FA81627322C00A1B765 /* TestViewController.m */; };
 		60EA6FAB1627322C00A1B765 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60EA6FA91627322C00A1B765 /* TestViewController.xib */; };
+		60EA6FC31627372700A1B765 /* UserTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EA6FC11627372700A1B765 /* UserTestViewController.m */; };
+		60EA6FC41627372700A1B765 /* UserTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60EA6FC21627372700A1B765 /* UserTestViewController.xib */; };
 		60FD86A415BF23FC000BDCCB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FD86A315BF23FC000BDCCB /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
@@ -102,6 +104,9 @@
 		60EA6FA71627322C00A1B765 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestViewController.h; path = HotDeals/TestViewController.h; sourceTree = "<group>"; };
 		60EA6FA81627322C00A1B765 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestViewController.m; path = HotDeals/TestViewController.m; sourceTree = "<group>"; };
 		60EA6FA91627322C00A1B765 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestViewController.xib; path = HotDeals/TestViewController.xib; sourceTree = "<group>"; };
+		60EA6FC01627372700A1B765 /* UserTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserTestViewController.h; path = HotDeals/UserTestViewController.h; sourceTree = "<group>"; };
+		60EA6FC11627372700A1B765 /* UserTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserTestViewController.m; path = HotDeals/UserTestViewController.m; sourceTree = "<group>"; };
+		60EA6FC21627372700A1B765 /* UserTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UserTestViewController.xib; path = HotDeals/UserTestViewController.xib; sourceTree = "<group>"; };
 		60FD86A315BF23FC000BDCCB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -244,6 +249,9 @@
 				605AC499161E5EC40046245F /* NewsViewController.m */,
 				60EA6FA71627322C00A1B765 /* TestViewController.h */,
 				60EA6FA81627322C00A1B765 /* TestViewController.m */,
+				60EA6FC01627372700A1B765 /* UserTestViewController.h */,
+				60EA6FC11627372700A1B765 /* UserTestViewController.m */,
+				60EA6FC21627372700A1B765 /* UserTestViewController.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -333,6 +341,7 @@
 				60B48F7A15A89E8200A52C2E /* Time.png in Resources */,
 				60B48F7B15A89E8200A52C2E /* Time@2x.png in Resources */,
 				60EA6FAB1627322C00A1B765 /* TestViewController.xib in Resources */,
+				60EA6FC41627372700A1B765 /* UserTestViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +365,7 @@
 				60146208161FCA30004FAB65 /* DealMaker.xcdatamodeld in Sources */,
 				602874E816211E3C00EE51B0 /* DealsViewController.m in Sources */,
 				60EA6FAA1627322C00A1B765 /* TestViewController.m in Sources */,
+				60EA6FC31627372700A1B765 /* UserTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
